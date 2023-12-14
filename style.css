@@ -1,0 +1,52 @@
+body {
+  height: 500px;
+  font-family: rubik bubbles;
+  color: aliceblue;
+  background-color: black;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.box1 {
+  width: 410px;
+  height: 400px;
+  background-image: url(https://media.giphy.com/media/NXp9HM6YeuS0U/giphy.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: blue;
+}
+
+.box2 {
+  width: 410px;
+  height: 400px;
+
+  background-color: blue;
+}
+
+.box3 {
+  width: 410px;
+  height: 400px;
+
+  background-color: blue;
+}
+
+.boxes {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+  padding: 10px 0 10px 0;
+}
+
+.lastline {
+  text-align: center;
+}
+
+.span {
+  border: 1px solid white;
+}
